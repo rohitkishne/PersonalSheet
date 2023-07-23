@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Personal Sheet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 style="text-align: center;">Personal Sheet</h1>
+    <section class="action-btn">
+        <button id="bold" class="bold">B</button>
+        <button id="italic" class="italic">I</button>
+        <button id="underline" class="underline">U</button>
+        <button id="align-left" class="align-left"><i class="fa-solid fa-align-left"></i></button>
+        <button id="align-right" class="align-right"><i class="fa-solid fa-align-right"></i></button>
+        <button id="align-center" class="align-center"><i class="fa-solid fa-align-center"></i></button>
+        <button id="align-justify" class="align-justify"><i class="fa-solid fa-align-justify"></i></button>
+    </section>
+    <section class="writing-sheet">
+        <table id="sheet-table" class="sheet">
+            <thead>
+                <tr id="sheet-heading">
+                    <th id="current-Col-Row" class="sheet-heading selected-Col">No Column</th>
+                </tr>
+            </thead>
+            <tbody id="sheet-body">
+
+            </tbody>
+        </table>
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
